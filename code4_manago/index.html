@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>design cafe</title>
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<script>
+   $(function () {
+    $(".sp-menu-btn").on("click", function () {
+        $(".header_nav-sp").fadeToggle();
+        $(".sp-menu-btn").toggleClass("open");
+    });
+
+    $(".slider").slick({
+        autoplay:true,
+        autoplaySpeed: 2000,
+        dots: true,
+        arrows: false
+    });
+});
+</script>
+<body>
+    <header id="header">
+        <class="header_inner">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="./images/design_cafe_logo_header@2x.png" alt="design　cafe">
+                    </a>
+
+            </h1>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="#aboutUs">ABOUT US</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#event">EVENT</a></li>
+                    <li><a href="#access">ACCESS</a></li>
+                    
+                </ul>
+            </nav>
+
+            <div class="sp-menu-btn"<span></span></div>
+                    <div class="sp-menu-btn"></div>
+                    <li><a href="#aboutUs">ABOUT US</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#event">EVENT</a></li>
+                    <li><a href="#access">ACCESS</a></li>
+           
+                </ul>
+            </nav>
+        <div class="slider">
+            <div>
+                <picture>
+                    <source srcset="images/sp_main_vs@2x-100.jpg"media=(max-width: 767px)>
+            <img src="./images/pc_first-100.jpg" alt="カフェ店内">
+                </picture>
+            </div>
+            <div>
+                <picture>
+            <source srcset="images/sp_main_vs_2@2x-100.jpg"media=(max-width: 767px)>
+            <img src="./images/slider_2.jpg" alt="カフェ店内">
+        </div>
+    </picture>
+    </header>
+    <main>
+      <div class="container">
+        <section class="title">
+           <div class="first">
+               <p>
+                Have a happy day From a cup of coffee
+               </p>
+            </div>
+            <h2 class="second">
+                
+                ハッピーに溢れる１日を
+                <br>
+                １杯のコーヒーから。
+                
+
+            </h2>
+            <div class="third">
+            <p>
+                毎日を丁寧に大切に過ごしたい。だからこそ一杯一杯丁寧にコーヒーを入れ
+                <br>
+                足を運んでくれるお客さんには落ち着く空間とこだわりのコーヒーを提供したい。
+            </p>
+            </div>
+        </section>
+        <section id="aboutUs-sp">
+            <div class="ABOUTUS-sp">
+                <div class="section-title-sp">
+                    <h3 class="section-title1-sp">
+                        <img src="./images/about_us@2x.png" alt="aboutus">
+                    </h3>
+                </div>    
+                <div class="aboutphoto-sp">
+                 <img src="./images/about_us@2x-100.jpg" alt="コーヒー">
+                </div>
+                <div class="text-sp">
+                <h4 class="text-title1-sp">
+                    私たちが提供する
+                    <br>
+                    こだわりのコーヒー
+                </h4>
+                <p>
+                    サービスを提供する上での想いや心がけていることなど、メッセージ
+                    を文章で紹介します。サービスを提供する上での想いや心がけて
+                    いることなど、メッセージを文章で紹介します。サービスを提供する上
+                    での想いや心がけていることなど、メッセージを文章で紹介します。サ
+                    ービスを提供する上での想いや心がけていることなど、メッセージを
+                    文章で紹介します。サービスを提供する上での想いや心がけている
+                    ことなど、メッセージを文章で紹介します。
+                
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="menu">
+        <div class="MENU">
+          <h3 class="section-title2">
+            <img src="./images/menu@2x.png" alt="menu">
+          </h3>
+        </div>  
+          <ul>
+             <li>
+                 <img src="./images/pc_menu_drink-100.jpg" media="(max-width: 767px)">
+                 <h4 class="text-title2">
+                    Drink
+                 </h4>
+                 <p>
+                    ドリンクメニューの概要を100文字程度で紹介します。
+                    素材やこだわりなどをアピールしていきます。
+                 </p>
+             </li>
+             <li>
+                <picture>
+                    <source srcset="./images/food_sp@2x-100.jpg" media="(max-width: 767px)">
+                 <img src="./images/pc_menu_food-100.jpg" alt="menu food">
+                </picture>
+                <h4 class="text-title2">
+                    Food
+                 </h4>
+                 <p>
+                    フードメニューの概要を100文字程度で紹介します。
+                    素材やこだわりなどをアピールしていきます。
+                 </p>
+              </li>
+              <li>
+                <picture>
+                    <source srcset="./images/cake_sp@2x-100.jpg" media="(max-width: 767px)">
+                    <img src="./images/pc_menu_sweets-100.jpg" alt="menu sweets">
+                  </picture>  
+                  </h4 class="text-title2">
+                    Sweets
+                </h4>
+                <p>
+                    スイーツメニューの概要を100文字程度で紹介します。
+                    素材やこだわりなどをアピールしていきます。
+                  </p>
+             </li>
+          </ul>
+        
+    </section>
+  </div>
+    <section id="gallery">
+        <div class="gallery-title">
+        <h3 class="section-title3">
+            <img src="./images/gallery@2x.png" alt="gallery">
+        </h3>
+        </div>
+        <div class="GALLERY">
+            <ul>
+                <li>
+                    <picture>
+                        <source srcset="./images/mobile_gallery-100.jpg" media="(max-width: 767px)">
+                        <img src="./images/pc_gallary_05-100.jpg" alt="ギャラリー店内1">
+                        </picture>
+                </li>
+                <li>
+                    <img src="./images/pc_gallary_04-100.jpg" alt="ギャラリーコーヒー豆">
+                </li>
+                <li>
+                    <img src="./images/pc_gallary_03-100.jpg" alt="ギャラリー店内２">
+                </li>
+                <li>
+                    <img src="./images/pc_gallary_02-100.jpg" alt="ギャラリー看板">
+                </li>
+                <li>
+                    <img src="./images/pc_gallary_01-100.jpg" alt="ギャラリーコーヒーカップ">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div class="container">
+        <section id="event">
+            <div class="event-title">
+            <h3 class="section-title4">
+                <img src="./images/event@2x.png" alt="event">
+            </h3>
+            </div>
+            <div class="EVENT">
+                <ul class="eventlist">
+                    <li class="list">
+                        <p class="date">
+                            2020.06.23
+                        </p>
+                        <p class="news">
+                            7月はイベント出店のため0/0お休みします
+                        </p>
+                    </li>
+                    <li class="list">
+                        <p class="date">
+                            2020.03.15
+                        </p>
+                        <p class="news">
+                            春の新商品新発売。話題のあのブランドとコラボ
+                        </p>
+                    </li>
+                    <li class="list">
+                        <p class="date">
+                            2020.02.06
+                        </p>
+                        <p  class="news">
+                            コーヒーの日で30%OFFイベントを開催[３日間限定]
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+       <section id="access">
+        <div class="access-title">
+        <h3 class="section-title5">
+            <img src="./images/access@2x.png" alt="access">
+        </h3>
+        </div>
+        <div class="ACCESS">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.173698553655!2d139.70057307578617!3d35.648091872597945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b45c788b9cd%3A0x50f941ce0d71f4f8!2z5Luj5a6Y5bGx6aeF!5e0!3m2!1sja!2sjp!4v1705738016448!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         
+            <div id="wrapper"></div>
+    <div id="side"></div>
+    </div>
+       </section>
+</main>
+<footer class="footer">
+    <div class="footer_inner">
+        <h1 class="logo2">
+            <img src="./images/design_cafe_logo_footer@2x.png" alt="design cafe logo">
+        </h1>    
+            <ul class="info">
+                <li>
+                    <p>
+                        OPEN 18:00 / CLOSE 24:00
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        〒150-0022
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        東京都渋谷区東京南123デザインビルB1
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        MAIL:info@designcafe.tokyo
+                    </p>
+                </li>
+            </ul>
+    </div>
+
+    <p class="copyright">
+     © 2021 DESIGN CAFE
+    </p>
+    <p class="totop">
+        <a href="#header">
+            <img src="./images/to_top@2x.png" alt="to top"> 
+        </a>
+    </p>
+    <script>
+        $(function () {
+            $(".sp-menu-btn").on("click", function () {
+                $(".header__nav-sp").fadeToggle();
+                $(".sp-menu-btn").toggleClass("open");
+            });
+        });
+    </script>
+</body>
+</html>

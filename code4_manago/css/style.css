@@ -1,0 +1,534 @@
+@charset "utf-8";
+
+
+
+.header_inner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 2.51%;
+    padding-right: 6.73%;
+    position: absolute;
+    z-index:9999;
+    top: 0;
+    left: 0;
+}
+.logo{
+    width:227px;
+}
+.header_nav ul{
+    display: flex;
+    gap: 50px;
+
+}
+.header_nav li{
+    color:#fff;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+    "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: bold;
+}
+.sp-menu-btn{
+    width: 227px;
+}
+.sp-menu-btn{
+    display: none;
+}
+.header_nav-sp{
+ display:none;
+}
+@media screen and (max-width:1100px) {
+    .header_nav{
+        display: none;
+    }
+.sp-menu-btn{
+    display: block;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 9999;
+    transition: 0.5s;
+}
+.sp-menu-btn span{
+    position:absolute;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #ffff;
+    top: 15px;
+    transition: 0.5s;
+}
+.sp-menu-btn span::before{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #ffff;
+    top: -10px;
+    transition: 0.5s;
+}
+.sp-menu-btn span::after{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #ffff;
+    top: -10px;
+    transition: 0.5s;
+}
+
+main{
+    background-color: #E8D9BF;
+}
+.container{
+    max-width: 1020px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.title{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+}
+.first{
+    font-size: 30px;
+    line-height: 3.88;
+    letter-spacing: 0em;
+    margin-top: 105px;
+}
+
+.second{
+    font-size: 82px;
+    line-height: 1.17;
+    letter-spacing: 0.1em;
+    margin-top: 60px;
+}
+
+.third{
+    font-size: 23px;
+    line-height: 1.65;
+    letter-spacing: 0.1em;
+    margin-top: 50px;
+}
+
+.ABOUTUS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 102px;
+
+}
+
+.aboutphoto{
+    width: 50%;
+    
+}
+.aboutphoto img{
+    border-bottom-right-radius: 82px;
+}
+.text{
+    margin-left: 80px;
+    width: 50%;
+}
+
+.section-title1{
+    width: 272px;
+    height: 77px;
+    
+
+}
+.text-title1{
+    font-size: 44px;
+    line-height: 1.38;
+    letter-spacing: 0em;
+    margin-top: 57px;
+    margin-bottom: 40px;
+
+}
+#aboutUs p{
+    font-size: 16px; 
+    line-height: 1.62;
+    letter-spacing: 0em;
+}
+
+.MENU{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section-title2{
+    width: 151px;
+    height: 77px;
+    margin-top: 108px;
+   
+   
+}
+
+
+#menu ul img{
+    border-top-right-radius: 41px;
+}
+#menu ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 49px;
+
+}
+
+#menu ul li{
+    width: 33.3%;
+}
+
+.text-title2{
+    margin-top: -7px;
+    margin-left: 13px;
+    margin-bottom: 24px;
+    font-size: 38px;
+    line-height: 0.57;
+    color: #D30202;
+}
+
+#menu p{
+    font-size: 17px;
+    line-height: 1.47;
+}
+
+.gallery-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title3{
+
+    margin-top:100px;
+    width: 245px;
+ 
+    
+}
+
+
+#gallery ul {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 27px;
+    
+    
+}
+#gallery ul li{
+    width: 20%;
+}
+
+.event-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section-title4{
+    margin-top:71px;
+    width: 173px;
+
+}
+
+.element.style{
+    background-color: #fff;
+    border: solid 3px #4F260B;
+}
+#event ul{
+    margin-top: 40px;
+   padding-bottom: 40px;
+    padding-top: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+ 
+}
+#event {
+    background-color: #fff;  /* 白い背景色を指定 */
+}
+
+.section-title4 {
+    margin-top: 71px;
+    width: 173px;
+    background-color: #fff;  /* 白い背景色を指定 */
+}
+
+#event ul {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;  /* 白い背景色を指定 */
+    border: solid 3px #4F260B;
+}
+
+#event ul li {
+    display: flex;
+    gap: 61px;
+    background-color: #fff;  /* 白い背景色を指定 */
+}
+
+#event ul li{
+    display: flex;
+    gap: 61px;
+}
+
+.date{
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+.news{
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+.access-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title5{
+    width: 213px;
+    margin-top: 81px;
+    
+}
+
+#access iframe {
+    width: 100%;
+    height: 500px; 
+    filter: grayscale(100%);
+    margin-top: 23px;
+}
+.footer_inner{
+    max-width: 1000px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 68px;
+    margin-top: 83px;
+
+}
+
+.logo2{
+    width: 226px;
+}
+
+.info p{
+    font-size: 20px;
+    line-height: 1.95;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 79px;
+    font-size: 16px;
+    line-height: 2.18;
+}
+
+.top{
+    position: fixed;
+    width: 125px;
+    bottom: 20px;
+    right: 20px;
+}
+.open span{
+    background-color: transparent;
+}
+
+.open span::before{
+    transform: rotate(-45deg);
+    top: 0;
+
+}
+
+.open span::after{
+    transform: rotate(45deg);
+    bottom: 0;
+
+}
+
+.header_nav-sp{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000bd;
+    z-index: 9998;
+}
+
+.header_nav-sp ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.header_nav-sp li{
+    color: #fff;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+    "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#aboutUs-sp{
+    display: none;
+}
+
+.section-title1-sp{
+    width: 272px;
+    height: 77px;
+    
+}
+.section-title-sp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 68px;
+    margin-bottom: 17px;
+}
+
+.aboutphoto-sp img{
+    width: 100%;
+}
+
+.text-title1-sp{
+    font-size: 36px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    margin: 34px auto 0;
+}
+
+#aboutUs-sp p{
+    font-size: 16px; 
+    line-height: 1.75;
+    letter-spacing: 0em;
+    margin-top: 32px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px){
+    .header_nav{
+        display: none;
+    }
+    .sp-menu-btn{
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        z-index: 9999;
+        transition: 0.5s;
+    
+    }
+    
+    .first{
+        font-size: 17px;
+        
+    }
+    
+    .second{
+        font-size: 38px;
+        line-height: 1.15;
+        
+    }
+    
+    .third{
+        font-size: 16px;
+        line-height: 1.87;
+       
+    }
+
+    .text-title1{
+        font-size: 36px;
+        line-height: 1.25;
+
+    }
+}   
+
+ @media screen and (max-width: 767px){
+    #aboutUs{
+        display: none;
+    }   
+
+    #aboutUs-sp{
+        display:block;
+    }
+
+    #menu ul{
+        flex-direction: column;
+    }
+    #menu ul li{
+        width: 100%;
+    }
+
+    .footer_inner{
+        flex-direction: column;
+    }
+
+    .logo2{
+        width: 60%;
+    }
+
+    #event ul li{
+        flex-direction: column;
+        gap: 5px;
+        margin-bottom: 28px;
+      
+        
+    }
+    .pc{
+        display: none;
+    }
+
+    .date{
+        margin-bottom: 0;
+        font-size: 16px;
+
+    }
+    .news{
+        font-size: 16px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 100%;
+    }
+
+    #event ul{
+        margin-top: 0;
+    }
+ }
+
+
+
+}
+.slick-dots{
+    bottom:0;
+}
+
+.slick-dots li button:before{
+    color: #ffff;
+}
+
+.slick-dots li.slick-active button:before{
+    color: #ffff;
+}
